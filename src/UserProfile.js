@@ -9,6 +9,10 @@ const UserProfile = () => {
       .then((data) => setUser(data.results[0]));
   }, []);
 
+  if (!user) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div

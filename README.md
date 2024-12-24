@@ -4,6 +4,26 @@
 
 ![card2](https://github.com/user-attachments/assets/30815299-7e10-48f1-9f65-a80acccf0e23)
 
+This project showcases a user profile card created using React and Tailwind CSS. The profile card fetches data from the Random User API and displays the user's details in a visually appealing card format.
+
+## Features
+Dynamic Data Fetching: Uses the Random User API to fetch user information dynamically.
+
+Responsive Design: Ensures the card layout remains horizontal and visually appealing across all screen sizes, from mobile to desktop.
+
+Modern Styling: Utilizes Tailwind CSS for a sleek, modern look with gradient backgrounds, rounded corners, shadows, and smooth transitions.
+
+Detailed User Information: Displays user's photo, name, gender, phone number, email, date of birth, age, and address in a well-organized manner.
+
+## Technologies Used
+React: For building the user interface and managing component state.
+
+Tailwind CSS: For styling the application with utility-first CSS classes.
+
+API Integration: Uses fetch to retrieve data from the Random User API.
+
+## Live Demo
+Check out the live demo of the project here. [Live](https://profile-card-seven-beta.vercel.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
